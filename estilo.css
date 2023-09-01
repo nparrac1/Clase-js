@@ -1,6 +1,22 @@
-div{
+/* div{
     height: 100px;
     width: 100px;
     background-color: red;
     margin-bottom: 5px;
+    animation:spin 3s;
+    animation-iteration-count:infinite; 
+} 
+
+  @keyframes spin {
+    from {
+      transform:rotate(0deg);
+    }
+    to {
+      transform:rotate(360deg);
+    }
+  } */
+
+
+.opciones{
+  margin-top:20px ;
 }
