@@ -7,7 +7,6 @@
 }
 
 .trasladar{
-
     animation: trasladar1 2000ms infinite ease-in-out;
 }
 
@@ -51,3 +50,47 @@
     70%{transform: rotate3d(0,0,1,270deg);}
     100%{transform: rotate3d(0,0,0,0);}
 }
+
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.circulo{
+   background-color: red;
+   margin-top: 20px;
+   margin-left: 20px;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+
+    animation-name: circulo;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: ; /* forwards --> se mantiene los estilos de la ultima animacion ;  backwards --> estilo inicial de la anim 0%
+    va con la propiedad animation-delay */
+
+    /* animation-timing-function: linear; */
+/* } */
+
+/* .circulo:hover{
+    animation-play-state: paused;
+}
+
+
+ @keyframes circulo {
+    from {
+        /* transform: scale(1);  aumenta tamño en relaciona una escala*/ 
+        /* transform: translateX(0); lo mueve en direccion x e y*/
+  /*   }
+
+    to{
+       /*  transform: translateX(100%); */
+   /*  } */
+/* }  */ 
