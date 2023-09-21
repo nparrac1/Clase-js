@@ -4,9 +4,7 @@ $(document).ready(function(){
     alert("Hello, World!");
 }); */
 
-/* function hola(){
-    alert("Hola mundo en js");
-} */
+
 
 /* function verde(){
     document.getElementsByClassName("verde")[0].style.backgroundColor ="green";
@@ -33,7 +31,7 @@ function sumar(){
     var numero1 = $("#numero1").val();
     var numero2 = $("#numero2").val();
     var resultado = Number(numero1) + Number(numero2)
-    console.log("El resultado de la suma es: " + resultado)
+    document.write(resultado)
 }
 
 function restar(){

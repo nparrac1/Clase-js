@@ -4,10 +4,12 @@
     background-color: red;
     display: inline-block;
     margin: 20px 10px;
+    
 }
 
 .trasladar{
     animation: trasladar1 2000ms infinite ease-in-out;
+    
 }
 
 
@@ -22,6 +24,8 @@
 .rotar{
     animation: rotar1 2000ms infinite ease-in-out;
 }
+
+
 
 @keyframes trasladar1 {
     0%{transform: translate3d(0,0,0);}
@@ -50,6 +54,7 @@
     70%{transform: rotate3d(0,0,1,270deg);}
     100%{transform: rotate3d(0,0,0,0);}
 }
+
 
 
 
